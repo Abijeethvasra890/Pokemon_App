@@ -1,4 +1,3 @@
-// PLP.js
 import React, { useEffect, useState } from 'react';
 import PokemonCard from './PokemonCard';
 import NavBar from './NavBar';
