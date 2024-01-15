@@ -10,7 +10,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 function App() {
   return (
     <div className="App">
-      <Routes>
+      <Routes> /*Routes the different pages*/
         <Route path="/" element={<Home />}/>
         <Route path="/pokemons" element={<PLP/>}/>
         <Route path="/pokemons/:id" element={<PDP/>} />
